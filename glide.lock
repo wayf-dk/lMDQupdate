@@ -1,0 +1,6 @@
+hash: 388471d5b2ec20b2218e33de1b6c342defdca0184c55b2c05a1246d705df6c95
+updated: 2017-01-06T15:07:40.51212722+01:00
+imports:
+- name: github.com/wayf-dk/gosaml
+  version: b05e8e999bd8705a28f7b374527e9e96e1617f30
+testImports: []

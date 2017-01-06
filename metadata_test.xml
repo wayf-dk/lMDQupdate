@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:wayf="http://wayf.dk/2014/08/wayf" entityID="https://wayf.wayf.dk" validUntil="2017-01-11T08:10:02Z" cacheDuration="PT6H" ID="_1146edad207b70bf1705a9e72d2ebd22ee2eb99c"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+     <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+     <ds:Reference URI="#_1146edad207b70bf1705a9e72d2ebd22ee2eb99c">
+       <ds:Transforms>
+         <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+       </ds:Transforms>
+       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <ds:DigestValue>+dPr0bJZ4IF5ovxAe7Uss+xBu0UNdtgoHq9CppyH2Vs=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>Y+i5uGL6DSudbD1iVv1MMi24FZ7Cnc1gg19Us18FwETC6Vf+NsaFPEbjD09surnang97j1XYnVai/nAc8FNex2zCjxBJopUZd59ANSJa9QzhkTQFVpPrusPw4KfzCwPr7NNwCn4omocyXi3lUMA5QfQ/+pCg1/pcFkjtcgJeh3VkCTNaSUf8EqfCIrCyWALbKqrAM70dYEQtosrnCbj+1/XqeEcAVzHAMjKxACoKU6azbY94KXCumns2uLQsJevJT+qGyD5Q/wP8qFUKQwrVduuDUH72odUhv6g9gmztLbIc9nNl/D4wnbr7ogUZzgy8CC0KRySdI9fp5V7kWHAsRQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDBTCCAe2gAwIBAgIBBzANBgkqhkiG9w0BAQsFADA8MQswCQYDVQQGEwJESzEN
+MAsGA1UEChMEV0FZRjEeMBwGA1UEAxMVbWV0YWRhdGEuMjAxNi5zaWduaW5nMB4X
+DTE1MDEwMTAwMDAwMFoXDTI1MTIzMTAwMDAwMFowPDELMAkGA1UEBhMCREsxDTAL
+BgNVBAoTBFdBWUYxHjAcBgNVBAMTFW1ldGFkYXRhLjIwMTYuc2lnbmluZzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ8csKphZWfERIcorQzodVnR9vUS
+LzxXI0DGL98afvJvEfsbqy5WHhS1Sl1CnYoKSl6NtO7UC6wix3gxa0OasB6vsUe0
+LDsXndLhyKziZIsu0D/sHvaz6jucs6Q7gvuyUztohtzSEu2iIyCzUQMSwwAJwtY3
+AVNssxJaG+CF6bwU8ARQxUqlpB8Ufx2knFLnL8NJcZcXKz+ZpnNZtEWu5cIRPSiI
+pWkc4efwk78pqFdLr14fPBo9jgfzunq71TjnP0G2wYD15dq9ShWGKNm6sT6xs29i
+BNjI/MZzD7Srp6GWdMjEVcbWSlA7YBc0FpdwWZpDUDwj6D2l/8FRSNjqyTUCAwEA
+AaMSMBAwDgYDVR0PAQH/BAQDAgIEMA0GCSqGSIb3DQEBCwUAA4IBAQAXkE3WqIly
+NAeHXjDvJPDy8JBWeHOt7CpLJ8mDvD3Ev7uTiM2I5Mh/arMAH6T2aMxiCrk4k1qF
+ibX0wIlWDfCCvCUfDELaCcpSjHFmumbt0cI1SBhYh6Kt0kWYsEdyzpGm0gPl+YID
+Rg6VNKINJeOBM6r/avh3aRzmh2pGz1M1DAucEXz6L0caCkxU3RXFRzvvakW01qKO
+2hc6WhxfqMUmSIxi+SAPlLN3L2kS0ItTJ3RSxVPA2zF7yVgoI0yrLBhR2AQgWCS2
+eW2q8fSxpyb0sDCGVV/AAsunKYSO8i2Hjvu13lcRx/JxLwdlm8+NNNGX52qwz0Lo
+i1lLXSO09bfw
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:Extensions><mdrpi:PublicationInfo xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" creationInstant="2017-01-04T08:10:02Z" publisher="http://www.wayf.dk"/></md:Extensions>
+  
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIC7TCCAdWgAwIBAgIBBzANBgkqhkiG9w0BAQsFADAwMQswCQYDVQQGEwJESzEN
+MAsGA1UEChMEV0FZRjESMBAGA1UEAxMJd2F5Zi4yMDE2MB4XDTE1MDEwMTAwMDAw
+MFoXDTI1MTIzMTAwMDAwMFowMDELMAkGA1UEBhMCREsxDTALBgNVBAoTBFdBWUYx
+EjAQBgNVBAMTCXdheWYuMjAxNjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAOeCt61E+O909jreVUV1tFHQe9m3h612W38OauWftVVrwH0CJpYCFGAMUBcD
+FkPgocA+XpB2qadF+/dnErIDbTVgxqyewB0TOWmMoqMknrkmS0x0AiRHIBtkzIWF
+am+EwGtFGA5Hw3sjGPoDXg4cGT731uoCktsH5ELt+eFDXSBOUgxyKzZf8NTXRbLk
+sIdPxNgZ04e5JawFo1cnYbTVYQcleMqOYY3rIDXxA8BTm4ZYCNkxLO0v7YK7+mfF
+5T1Q5C7FXivoQI+A2mi/qGlwLt+oD81jdYki/v7ApXZi0sdcRovA9H4yFCv4tT5f
+/Plu8YJ8aXSGpJ8gATPtkY9ul9cCAwEAAaMSMBAwDgYDVR0PAQH/BAQDAgIEMA0G
+CSqGSIb3DQEBCwUAA4IBAQCaDrkKvC9mc8cOmjFhPd/4UgZxol7K0U7GwBY92MXz
+dE/o4Dd+u3Dw0+O3UsK2kxExFlT3qXuG9XF987xUoGBy+Ip6A14nmKfW9a1hLS7z
+ZoTVpxHebmms8n5voKLPBWowiMwb8jLdVaPzAx7bMnOfXrV3g0L8inPsqgYOgqku
+9//8I7YnV/r8z0V0uLgi2n9eYDyqvktsL37tIw6RTX/l9J8KQlHy0eWMs9CXDaK1
+gYdif1EsaHW4xLpjZsohIoovXMtQNTN+jIybXdEDScdLzwT9j9+BU9uHJRx3f3bf
+wX9QINsDkafDOtBNAnW762LHylOBiXgV2s954JAVY3O+
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wayf.wayf.dk/module.php/saml/sp/saml2-logout.php/wayf.wayf.dk"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wayf.wayf.dk/module.php/saml/sp/saml2-acs.php/wayf.wayf.dk" index="0"/>
+    <md:AttributeConsumingService xmlns:wayf="http://wayf.dk/2014/08/wayf" index="0">
+     <md:ServiceName xml:lang="da">WAYF - Where Are You From</md:ServiceName>
+      <md:ServiceName xml:lang="en">WAYF - Where Are You From</md:ServiceName>
+      <md:ServiceDescription xml:lang="da">WAYF - Where Are You From</md:ServiceDescription>
+      <md:ServiceDescription xml:lang="en">WAYF - Where Are You From</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="sn" wayf:singular="true" wayf:must="true" Name="sn" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="gn" wayf:singular="true" wayf:must="true" Name="gn" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="cn" wayf:singular="true" wayf:must="true" Name="cn" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonPrincipalName" wayf:singular="true" wayf:mandatory="true" Name="eduPersonPrincipalName" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="mail" Name="mail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonPrimaryAffiliation" wayf:singular="true" wayf:must="true" Name="eduPersonPrimaryAffiliation" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="organizationName" wayf:singular="true" wayf:must="true" Name="organizationName" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonAssurance" wayf:singular="true" wayf:must="true" Name="eduPersonAssurance" isRequired="true" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="schacPersonalUniqueID" Name="schacPersonalUniqueID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="schacCountryOfCitizenship" wayf:singular="true" Name="schacCountryOfCitizenship" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonScopedAffiliation" Name="eduPersonScopedAffiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="preferredLanguage" Name="preferredLanguage" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonEntitlement" Name="eduPersonEntitlement" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="norEduPersonLIN" Name="norEduPersonLIN" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="schacHomeOrganization" wayf:computed="true" Name="schacHomeOrganization" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="eduPersonTargetedID" wayf:computed="true" Name="eduPersonTargetedID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="schacDateOfBirth" Name="schacDateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	  <md:RequestedAttribute FriendlyName="schacYearOfBirth" Name="schacYearOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	  <md:RequestedAttribute FriendlyName="schacHomeOrganizationType" wayf:computed="true" Name="schacHomeOrganizationType" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	  <md:RequestedAttribute FriendlyName="eduPersonAffiliation" Name="eduPersonAffiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="displayName" Name="displayName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+        <mdui:Description xml:lang="da">WAYF - den danske identitetsf&#xF8;deration for forskning og uddannelse</mdui:Description>
+        <mdui:Description xml:lang="en">WAYF - The Danish identity federation for research and higher education</mdui:Description>
+        <mdui:DisplayName xml:lang="da">WAYF - Where Are You From</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="en">WAYF - Where Are You From</mdui:DisplayName>
+      </mdui:UIInfo>
+    <shibmd:Scope regexp="false">adm.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">aub.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">civil.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">create.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">es.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">hst.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">id.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">its.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">learning.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">m-tech.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">plan.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">sbi.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">staff.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">student.aau.dk@aau.dk</shibmd:Scope><shibmd:Scope regexp="false">kb.dk</shibmd:Scope><shibmd:Scope regexp="false">hi.is</shibmd:Scope><shibmd:Scope regexp="false">ruc.dk</shibmd:Scope><shibmd:Scope regexp="false">orphanage.wayf.dk</shibmd:Scope><shibmd:Scope regexp="false">ucl.dk</shibmd:Scope><shibmd:Scope regexp="false">aau.dk</shibmd:Scope><shibmd:Scope regexp="false">viauc.dk</shibmd:Scope><shibmd:Scope regexp="false">ucc.dk</shibmd:Scope><shibmd:Scope regexp="false">drlund-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">sdu.dk</shibmd:Scope><shibmd:Scope regexp="false">itu.dk</shibmd:Scope><shibmd:Scope regexp="false">aip.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">gg.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">mg.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">sska.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">sss.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">its.itsf.dk</shibmd:Scope><shibmd:Scope regexp="false">sikker-adgang.dk</shibmd:Scope><shibmd:Scope regexp="false">ibc.dk</shibmd:Scope><shibmd:Scope regexp="false">rungsted-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">ucsj.dk</shibmd:Scope><shibmd:Scope regexp="false">fsv.minibib.dk</shibmd:Scope><shibmd:Scope regexp="false">zbc.dk</shibmd:Scope><shibmd:Scope regexp="false">frsgym.dk</shibmd:Scope><shibmd:Scope regexp="false">cbs.dk</shibmd:Scope><shibmd:Scope regexp="false">ku.dk</shibmd:Scope><shibmd:Scope regexp="false">kristne-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">vordingborg-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">dmjx.dk</shibmd:Scope><shibmd:Scope regexp="false">apoteket.dk</shibmd:Scope><shibmd:Scope regexp="false">erhvervsakademiaarhus.dk</shibmd:Scope><shibmd:Scope regexp="false">dtu.dk</shibmd:Scope><shibmd:Scope regexp="false">ucn.dk</shibmd:Scope><shibmd:Scope regexp="false">frhavn-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">sde.dk</shibmd:Scope><shibmd:Scope regexp="false">eal.dk</shibmd:Scope><shibmd:Scope regexp="false">hrs.dk</shibmd:Scope><shibmd:Scope regexp="false">au.dk</shibmd:Scope><shibmd:Scope regexp="false">knord.dk</shibmd:Scope><shibmd:Scope regexp="false">eucnord.dk</shibmd:Scope><shibmd:Scope regexp="false">phmetropol.dk</shibmd:Scope><shibmd:Scope regexp="false">handelsskolen.com</shibmd:Scope><shibmd:Scope regexp="false">cphbusiness.dk</shibmd:Scope><shibmd:Scope regexp="false">kea.dk</shibmd:Scope><shibmd:Scope regexp="false">eadania.dk</shibmd:Scope><shibmd:Scope regexp="false">dansidp.stads.dk</shibmd:Scope><shibmd:Scope regexp="false">umit.dk</shibmd:Scope><shibmd:Scope regexp="false">rosborg-gym.dk</shibmd:Scope><shibmd:Scope regexp="false">basyd.dk</shibmd:Scope><shibmd:Scope regexp="false">statsbiblioteket.dk</shibmd:Scope><shibmd:Scope regexp="false">eamv.dk</shibmd:Scope><shibmd:Scope regexp="false">aams.dk</shibmd:Scope><shibmd:Scope regexp="false">regionsjaelland.dk</shibmd:Scope><shibmd:Scope regexp="false">dskd.dk</shibmd:Scope><shibmd:Scope regexp="false">fms.dk</shibmd:Scope><shibmd:Scope regexp="false">smk.dk</shibmd:Scope><shibmd:Scope regexp="false">msk.dk</shibmd:Scope><shibmd:Scope regexp="false">drcmr.dk</shibmd:Scope><shibmd:Scope regexp="false">simac.dk</shibmd:Scope><shibmd:Scope regexp="false">ucsyd.dk</shibmd:Scope><shibmd:Scope regexp="false">this.is.not.a.valid.idp</shibmd:Scope><shibmd:Scope regexp="false">oess.dk</shibmd:Scope><shibmd:Scope regexp="false">kadk.dk</shibmd:Scope><shibmd:Scope regexp="false">musikkons.dk</shibmd:Scope><shibmd:Scope regexp="false">easj.dk</shibmd:Scope></md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIC7TCCAdWgAwIBAgIBBzANBgkqhkiG9w0BAQsFADAwMQswCQYDVQQGEwJESzEN
+MAsGA1UEChMEV0FZRjESMBAGA1UEAxMJd2F5Zi4yMDE2MB4XDTE1MDEwMTAwMDAw
+MFoXDTI1MTIzMTAwMDAwMFowMDELMAkGA1UEBhMCREsxDTALBgNVBAoTBFdBWUYx
+EjAQBgNVBAMTCXdheWYuMjAxNjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAOeCt61E+O909jreVUV1tFHQe9m3h612W38OauWftVVrwH0CJpYCFGAMUBcD
+FkPgocA+XpB2qadF+/dnErIDbTVgxqyewB0TOWmMoqMknrkmS0x0AiRHIBtkzIWF
+am+EwGtFGA5Hw3sjGPoDXg4cGT731uoCktsH5ELt+eFDXSBOUgxyKzZf8NTXRbLk
+sIdPxNgZ04e5JawFo1cnYbTVYQcleMqOYY3rIDXxA8BTm4ZYCNkxLO0v7YK7+mfF
+5T1Q5C7FXivoQI+A2mi/qGlwLt+oD81jdYki/v7ApXZi0sdcRovA9H4yFCv4tT5f
+/Plu8YJ8aXSGpJ8gATPtkY9ul9cCAwEAAaMSMBAwDgYDVR0PAQH/BAQDAgIEMA0G
+CSqGSIb3DQEBCwUAA4IBAQCaDrkKvC9mc8cOmjFhPd/4UgZxol7K0U7GwBY92MXz
+dE/o4Dd+u3Dw0+O3UsK2kxExFlT3qXuG9XF987xUoGBy+Ip6A14nmKfW9a1hLS7z
+ZoTVpxHebmms8n5voKLPBWowiMwb8jLdVaPzAx7bMnOfXrV3g0L8inPsqgYOgqku
+9//8I7YnV/r8z0V0uLgi2n9eYDyqvktsL37tIw6RTX/l9J8KQlHy0eWMs9CXDaK1
+gYdif1EsaHW4xLpjZsohIoovXMtQNTN+jIybXdEDScdLzwT9j9+BU9uHJRx3f3bf
+wX9QINsDkafDOtBNAnW762LHylOBiXgV2s954JAVY3O+
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wayf.wayf.dk/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wayf.wayf.dk/saml2/idp/SSOService2.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">WAYF - Where Are You From</md:OrganizationName>
+    <md:OrganizationName xml:lang="da">WAYF - Where Are You From</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">WAYF - Where Are You From</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="da">WAYF - Where Are You From</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="da">http://wayf.dk/index.php/da</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://wayf.dk/index.php/en</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>WAYF</md:GivenName>
+    <md:SurName>Operations</md:SurName>
+    <md:EmailAddress>operations@wayf.dk</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
