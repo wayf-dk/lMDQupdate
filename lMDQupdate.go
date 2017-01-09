@@ -55,6 +55,15 @@ type feedtuple struct {
 }
 
 var feeds []feedtuple
+var githash string = "No git hash Provided"
+var buildstamp string = "No build time Provided"
+
+func printBuildInfo() {
+	// go install -ldflags "-X main.buildstamp=`date -u '+%Y-%m-%d_%H:%M:%S'` -X main.githash=`git rev-parse --short HEAD`" src/metadataping.go
+	// static build: CGO_ENABLED=0 go install -ldflags "-X main.buildstamp=`date -u '+%Y-%m-%d_%H:%M:%S'` -X main.githash=`git rev-parse --short HEAD`" src/metadataping.go
+	log.Printf("Git Commit Hash: %s\n", githash)
+	log.Printf("UTC Build Time: %s\n", buildstamp)
+}
 
 // Set initial config values
 func initConfig() {
@@ -270,6 +279,7 @@ func main() {
 	var body []byte
 	var err error
 
+	printBuildInfo()
 	initConfig()
 	folderName, err := createDateTimeFolder(config["basefolder"], config["datafoldernameformat"])
 	if err != nil {
@@ -304,5 +314,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("ERROR: %s", err)
 	}
-    log.Printf("OK: lMDQ update succesfull. New folder is %s", folderName)
+	log.Printf("OK: lMDQ update succesfull. New folder is %s", folderName)
 }
